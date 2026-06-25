@@ -1,8 +1,8 @@
 class Solution {
     public int finalValueAfterOperations(String[] operations) {
-        int len = operations.length;
+        
         int X = 0;
-        for(int i=0;i<len;i++){
+        for(int i=0;i<operations.length;i++){
             if(operations[i].equals("++X")){
                 X++;
             }
